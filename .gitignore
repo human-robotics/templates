@@ -26,9 +26,9 @@
 hs_err_pid*
 
 
-##########
+####################
 # ECLIPSE
-##########
+####################
 .metadata
 bin/
 tmp/
@@ -40,6 +40,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+.project
+.classpath
 
 # External tool builders
 .externalToolBuilders/
@@ -85,6 +87,7 @@ local.properties
 .cache-main
 .scala_dependencies
 .worksheet
+
 
 ##########
 # INTELLIJ
@@ -528,6 +531,7 @@ MigrationBackup/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
 
 ####################
 # NETBEANS
