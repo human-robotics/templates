@@ -7,7 +7,7 @@ namespace ai.humanrobotics.examples
         private const string API_KEY = "9106b136-1424-4b2a-be0a-6e313dc2a80d";
         private const string ROBOT_ADDRESS = "localhost";
 
-        static void Main(string[] args)
+        static void Main(string[] args) 
         {
             IRobios robios = RobiosApi.Get(API_KEY, ROBOT_ADDRESS);
 
